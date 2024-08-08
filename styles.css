@@ -43,6 +43,14 @@ nav ul li a img {
     vertical-align: middle;
 }
 
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+
 .columns {
     display: flex;
     flex-wrap: wrap;
@@ -50,11 +58,39 @@ nav ul li a img {
     padding: 20px;
 }
 
+.columnsabout {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px;
+    
+}
+
+h2 {
+    text-align: left;
+    font-size: 3rem;
+
+}
+
+h5{
+    text-align: left;
+    font-weight: 300;
+    font-size: 1rem;
+}
 .column-item {
     flex: 1;
     margin: 10px;
     text-align: center;
+    
 }
+.column-item1 {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+    
+}
+
 
 .dm-long {
     width: 100%;
@@ -201,3 +237,129 @@ nav ul li a img {
     color:#00000003;
     text-shadow: 0 0 1px #00000008;
 }
+
+.me {
+    width: 70%;
+    margin-top: 0%;
+    padding: 0;
+}
+
+#contact {
+    width: 60%;
+
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Mada', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Mada', sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  form button:hover {
+    background-color: #555;
+  }
+
+  /* Footer Styles */
+footer {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 60px 0;
+    font-size: 16px;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    width: 30%;
+  }
+  
+  .footer-section h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section p {
+    line-height: 1.5;
+  }
+  
+  .contact span {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contact i {
+    margin-right: 10px;
+  }
+  
+  .links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .links li {
+    margin-bottom: 10px;
+  }
+  
+  .links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    color: #ccc;
+  }
+  
+  .socials .social-icons {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  
+  .socials .social-icons a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  
+  .socials .social-icons a:hover {
+    color: #ccc;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+  }
