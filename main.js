@@ -5,7 +5,7 @@ document.querySelectorAll(".portfolio-item").forEach(item => {
         document.querySelector(`.modal#${item.dataset.modalId}`).classList.toggle("open");
         document.querySelectorAll(`.modal#${item.dataset.modalId} *`).forEach((item,i) => {
             item.classList.add("fade-up");
-            item.style.animationDuration = `${i}s`;
+            item.style.animationDuration = `${(i+1)*.4}s`;
         });
         document.body.style.overflow = "hidden";
     });
